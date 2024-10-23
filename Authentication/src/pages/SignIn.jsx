@@ -109,7 +109,7 @@ const SignIn = () => {
                 <div className="form-control mt-6">
                   <button
                     type="submit"
-                    className="btn btn-primary bg-[#eaba93] hover:bg-[#d8843f] border-none text-white text-base font-semibold"
+                    className="btn btn-primary border-none text-black text-base font-semibold"
                     onClick={handleEmailPasswordSignIn}
                   >
                     Login
@@ -117,7 +117,7 @@ const SignIn = () => {
                 </div>
                 <div className="form-control mt-2">
                   <button
-                    className="btn btn-primary bg-gray-300 hover:bg-[#d8843f] border-none"
+                    className="btn btn-primary border-none text-white"
                     onClick={handleGoogleLogIn}
                   >
                     <FcGoogle className="text-xl" />
@@ -128,8 +128,8 @@ const SignIn = () => {
                 </div>
                 <div className="text-center mt-5">
                   Not registered yet?{" "}
-                  <span className="underline text-[#d8843f] font-bold text-lg">
-                    <Link to="/register">Create account.</Link>
+                  <span className="underline text-primary font-bold text-lg">
+                    <Link to="/sign-up">Create account.</Link>
                   </span>
                 </div>
               </form>

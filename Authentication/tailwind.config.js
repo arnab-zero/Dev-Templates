@@ -5,4 +5,8 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["retro", "corporate", "lemonade", "winter"],
+  },
+  darkMode: ["class", '[data-theme="night"]'],
 };
